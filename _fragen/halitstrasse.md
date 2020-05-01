@@ -1,6 +1,6 @@
 ---
-layout: frage
 title: Wieso braucht es eine Halitstraße in Kassel?
+layout: frage
 ---
 
 Halit Yozgat war 21 Jahre alt als er am 6. April 2006 von Mitgliedern des NSU ermordet wurde. Er wurde in der Holländischen Straße in Kassel geboren und in dieser Straße war auch sein Internetcafé, in dem er getötet wurde. Seine Eltern Ayşe und İsmail Yozgat fordern daher die Umbenennung der Holländischen Straße in Halitstraße, um an ihn zu gedenken. Sie sagen:
