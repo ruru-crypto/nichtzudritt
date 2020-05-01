@@ -1,0 +1,26 @@
+title:              Fragen zum NSU
+email:              kein_schlussstrich_hessen@gmx.de
+description:        
+author:             Kein Schlussstrich Hessen
+baseurl:            ""
+url:                ""
+
+# Social Profiles
+twitter_username:   keinschlussstr_
+facebook_username:  keinschlussstrichhessen
+
+# Add your google-analytics ID here to activate google analytics
+# google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+collections:
+  fragen:
+    output: true
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap 

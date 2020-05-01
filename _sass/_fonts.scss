@@ -1,0 +1,39 @@
+@font-face {
+	font-family: Hamza;
+	src: url('../assets/fonts/Hamza+Regular.eot'); /* IE9 Compat Modes */
+	src: url('../assets/fonts/Hamza+Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('../assets/fonts/Hamza+Regular.woff') format('woff'), /* Modern Browsers */
+			 url('../assets/fonts/Hamza+Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+			 url('../assets/fonts/Hamza+Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: Hamza;
+	src: url('../assets/fonts/Hamza+Bold.eot'); /* IE9 Compat Modes */
+	src: url('../assets/fonts/Hamza+Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('../assets/fonts/Hamza+Bold.woff') format('woff'), /* Modern Browsers */
+			 url('../assets/fonts/Hamza+Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+			 url('../assets/fonts/Hamza+Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: bold;
+}
+
+@font-face {
+	font-family: Hamza;
+	src: url('../assets/fonts/Hamza+Italic.eot'); /* IE9 Compat Modes */
+	src: url('../assets/fonts/Hamza+Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('../assets/fonts/Hamza+Italic.woff') format('woff'), /* Modern Browsers */
+			 url('../assets/fonts/Hamza+Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+			 url('../assets/fonts/Hamza+Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-style: italic;
+}
+
+@font-face {
+	font-family: Hamza;
+	src: url('../assets/fonts/Hamza+Bold+Italic.eot'); /* IE9 Compat Modes */
+	src: url('../assets/fonts/Hamza+Bold+Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			 url('../assets/fonts/Hamza+Bold+Italic.woff') format('woff'), /* Modern Browsers */
+			 url('../assets/fonts/Hamza+Bold+Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+			 url('../assets/fonts/Hamza+Bold+Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: bold;
+  font-style: italic;
+}

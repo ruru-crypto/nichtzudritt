@@ -1,0 +1,102 @@
+$primary:       #429792;
+
+@import "variables.scss";
+@import "fonts.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "post.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "bootstrap-overrides.scss";
+
+header.masthead{
+    margin-bottom: 15px;
+    border-bottom: 10px solid black;
+  }
+
+header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading {
+    padding: 20px 0 40px 0;
+}
+
+header.masthead .overlay {
+  background-color: $primary;
+}
+
+.fragenliste {
+}
+
+.homelink a {
+  color: $white}
+
+.post-preview {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 36px; 
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 42px; 
+  }
+}
+
+.post-title > span {
+  color: $black;
+  padding: 0.1em 0;
+  line-height: 1.3em;
+  background-image: linear-gradient(to bottom, $primary, $primary);
+  background-position: 0 1.2em;
+  background-repeat: repeat-x;
+  background-size: 1px 0.2em;
+}
+
+.post-preview > a:focus > h2 > span,
+.post-preview > a:hover > h2 > span {
+  color: $white;
+  background-image: linear-gradient(to bottom, $primary, $primary);
+  background-position: 0 0.05em;
+  background-repeat: repeat-x;
+  background-size: 1px 1.35em;
+}
+
+blockquote {
+  color: $black;
+  border-left: 8px solid $primary;
+  padding-left: 20px;
+}
+
+.clearfix {
+  margin-top: 80px;
+}
+footer .list-inline-item > a {
+  color: $primary;
+}
+footer .list-inline-item > a:hover {
+  color: lighten($primary, 10%);
+}
+
+footer ul li::before{
+  content: ""
+}
+
+body {
+  font-size: 21px;
+}
+
+a {
+  color: $primary;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "◼";
+  color: $primary;
+  display: inline-block;
+  width: 1.5em;
+  margin-left: -1.5em;
+}

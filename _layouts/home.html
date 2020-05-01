@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto fragenliste">
+
+      {{ content }}
+
+      <!-- Home Post List -->
+      {% for frage in site.fragen %}
+
+      <article class="post-preview">
+        <a href="{{ frage.url | prepend: site.baseurl | replace: '//', '/' }}">
+          <h2 class="post-title"><span>{{ frage.title }}</span></h2>
+        </a>
+      </article>
+
+      {% endfor %}
+
+      <!-- Pager -->
+
+    </div>
+  </div>
+</div>
