@@ -2,7 +2,7 @@ title:              Fragen zum NSU-Komplex
 email:              kein_schlussstrich_hessen@gmx.de
 description:        
 author:             Kein Schlussstrich Hessen
-#baseurl:            "nsufragen"
+baseurl:            "/nsufragen"
 
 # Social Profiles
 twitter_username:   keinschlussstr_
