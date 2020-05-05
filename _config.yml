@@ -14,6 +14,21 @@ facebook_username:  keinschlussstrichhessen
 collections:
   fragen:
     output: true
+  themen:
+    output: true
+
+
+defaults:
+  -
+    scope:
+      type: "fragen"
+    values:
+      layout: "frage"
+  -
+    scope:
+      type: "themen"
+    values:
+      layout: "thema"
 
 # Build settings
 markdown:           kramdown

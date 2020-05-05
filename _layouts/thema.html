@@ -1,18 +1,19 @@
 ---
 layout: default
 ---
-
 <div class="container">
   <div class="row mt-3">
     <div class="col-lg-8 col-md-10 mx-auto">
       <div class="btn-group dropdown">
         <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fas fa-filter"></i> Alle Fragen
+          <i class="fas fa-filter"></i> {{ page.long }}
         </button>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="{{site.baseurl}}/">Alle Fragen</a>
           {% for thema in site.themen %}
+            {% if thema != page %}
           <a class="dropdown-item" href="{{ thema.url | prepend: site.baseurl | replace: '//', '/' }}">{{ thema.long }}</a>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
@@ -21,11 +22,13 @@ layout: default
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto fragenliste">
       {% for frage in site.fragen %}
+      {% if frage.tags contains page.short %}
       <article class="post-preview">
       <a href="{{ frage.url | prepend: site.baseurl | replace: '//', '/' }}">
         <h2 class="post-title"><span>{{ frage.title }}</span></h2>
       </a>
       </article>
+      {% endif %}
       {% endfor %}
 
     </div>

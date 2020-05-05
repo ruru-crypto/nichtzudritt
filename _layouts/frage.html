@@ -3,44 +3,71 @@ layout: default
 ---
 
 <!-- Page Header -->
-{% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
-  <header class="masthead">
-    {% endif %}
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="mt-3 homelink">
-            <a href="{{ site.baseurl }}"><i class="fas fa-caret-square-up"></i></a>
-          </div>
-          <div class="post-heading">
-            <h1>{{ page.title }}</h1>
-          </div>
+<div class="container">
+  <div class="row mt-3">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="btn-group dropdown">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Zurück
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="{{site.baseurl}}/">Alle Fragen</a>
+          {% for thema in site.themen %}
+          <a class="dropdown-item" href="{{ thema.url | prepend: site.baseurl | replace: '//', '/' }}">{{ thema.long }}</a>
+          {% endfor %}
         </div>
-      </div>
-    </div>
-  </header>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
-
-        <div class="clearfix">
-
-          {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}"><i class='fas fa-caret-left'></i> Vorherige<span class="d-none d-md-inline">
-              Frage</span></a>
-          {% endif %}
-          {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Nächste<span class="d-none d-md-inline">
-              Frage</span> <i class='fas fa-caret-right'></i></a>
-          {% endif %}
-        </div>
-
       </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="post-heading">
+        <h1><span>{{ page.title }}</span></h1>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      {{ content }}
+
+      {% if page.infos %}
+      <h3>Weitere Informationen:</h3>
+      <ul>
+        {% for info in page.infos %}
+        {% if info.text %}
+          {% assign html = info.text %}
+        {% else %}
+          {% assign html = info.url %}
+        {% endif %}
+        {% if info.url %}
+          {% capture pre %}<a href="{{ info.url}}">{% endcapture %}
+          {% assign post = "</a>&nbsp;&nbsp;<small class='text-muted'><i class='fas fa-xs fa-external-link-alt'></i></small>" %}
+        {% endif %}
+        <li>
+          {{ pre }}{{ html }}{{ post }}
+        </li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <div class="clearfix">
+        {% if page.previous.url %}
+          {% assign vorherige = page.previous %}
+        {% else %}
+          {% assign vorherige = site.fragen | last %}
+        {% endif %}
+        {% if page.next.url %}
+          {% assign naechste = page.next %}
+        {% else %}
+          {% assign naechste = site.fragen | first %}
+        {% endif %}
+
+        <a class="btn btn-secondary float-left" href="{{ vorherige.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ vorherige.title }}"><i class='fas fa-caret-left'></i> Vorherige<span class="d-none d-md-inline">
+        Frage</span></a>
+
+        <a class="btn btn-secondary float-right" href="{{ naechste.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ naechste.title }}">Nächste<span class="d-none d-md-inline">
+        Frage</span> <i class='fas fa-caret-right'></i></a>
+      </div>
+    </div>
+  </div>
+</div>

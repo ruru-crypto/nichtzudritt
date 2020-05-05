@@ -1,6 +1,16 @@
 ---
 title: Wer waren die Opfer des NSU?
-layout: frage
+tags: opfer
+infos:
+  - text: "John, Barbara (Hg.) (2014): Unsere Wunden kann die Zeit nicht heilen. Was der NSU-Terror für die Opfer und Angehörigen bedeutet. Freiburg im Breisgau: Verlag Herder."
+  - text: "Das sind die 10 Opfer der rechten Terrorzelle NSU (bento)" 
+    url: https://www.bento.de/politik/nsu-prozess-das-sind-die-10-mordopfer-a-00000000-0003-0001-0000-000002599577
+  - text: "Die Opfer des NSU (Tagesschau)" 
+    url: https://www.tagesschau.de/multimedia/bilder/nsu-opfer-101.html
+  - text: "Der Anschlag (Keupstraße ist überall)" 
+    url: http://keupstrasse-ist-ueberall.de/der-anschlag/
+  - text: "„Wir klagen an! (Tribunal NSU-Komplex auflösen)" 
+    url: http://www.nsu-tribunal.de/newsroom/#check2
 ---
 
 Der Nationalsozialistische Untergrund ermordete zehn Menschen.
@@ -14,11 +24,3 @@ Darüber hinaus beging der NSU drei Sprengstoffanschläge. Sie platzierten Bombe
 Neben diesen direkten Opfern gab es auch weitere indirekte Opfer des NSU. Alle Menschen, die Angehörige bei diesen Gewalttaten verloren, sind Opfer des NSU, da diese Verbrechen ihr Leben für immer veränderten.
 
 Nach den Anschlägen des NSU folgten außerdem jahrelange Verdächtigungen und Demütigungen der Verstorbenen, Überlebenden und Angehörigen durch die Polizei, Medien und Gesellschaft. Viele Überlebende bezeichnen dies als den Anschlag nach dem Anschlag. Alle Menschen, die dieser Kriminalisierung ausgesetzt waren, sind ebenfalls Opfer des NSU-Komplexes.
-
-Weitere Informationen:
-
-- John, Barbara (Hg.) (2014): Unsere Wunden kann die Zeit nicht heilen. Was der NSU-Terror für die Opfer und Angehörigen bedeutet. Freiburg im Breisgau: Verlag Herder.
-- [Das sind die 10 Opfer der rechten Terrorzelle NSU (bento)](https://www.bento.de/politik/nsu-prozess-das-sind-die-10-mordopfer-a-00000000-0003-0001-0000-000002599577)
-- [Die Opfer des NSU (Tagesschau)](https://www.tagesschau.de/multimedia/bilder/nsu-opfer-101.html)
-- [Der Anschlag (Keupstraße ist überall)](http://keupstrasse-ist-ueberall.de/der-anschlag/)
-- [„Wir klagen an! (Tribunal NSU-Komplex auflösen)](http://www.nsu-tribunal.de/newsroom/#check2)

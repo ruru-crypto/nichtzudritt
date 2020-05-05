@@ -1,6 +1,6 @@
 ---
-layout: frage
 title: Was fordern die Überlebenden der NSU-Anschläge und die Familien der Verstorbenen?
+tags: opfer forderungen
 ---
 
 Die Überlebenden der Anschläge und die Familien der Verstorbenen sind unterschiedlich und auch innerhalb der Familien sind natürlich nicht alle gleich. Deswegen unterscheiden sich die konkreten Forderungen und Wünsche der Überlebenden und der Angehörigen. Dennoch gibt es ein paar Forderungen, die alle gemeinsam haben, die hier kurz vorgestellt werden:
@@ -12,7 +12,7 @@ Zweitens fordern sie angemessene Strafen für alle an den Taten Beteiligten und 
 Drittens wollen die Überlebenden und die Angehörigen, dass sie selbst, die Verstorbenen und die Taten des NSU nicht vergessen werden. Stattdessen wollen sie ein angemessenes, ihren Wünschen entsprechendes Gedenken.
 
 
-Weitere Informationen:
+### Weitere Informationen:
 
 - John, Barbara (Hg.) (2014): Unsere Wunden kann die Zeit nicht heilen. Was der NSU-Terror für die Opfer und Angehörigen bedeutet. Freiburg im Breisgau: Verlag Herder.
 - [NSU-Prozess: Pressekonferenz der Opfer-Angehörigen (Welt)](https://www.youtube.com/watch?v=A8k3sTBDBPk)
