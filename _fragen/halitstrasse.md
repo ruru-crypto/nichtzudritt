@@ -1,6 +1,10 @@
 ---
 title: Wieso braucht es eine Halitstraße in Kassel?
 tags: forderungen
+infos:
+  - text: "Kassel sperrt sich gegen „Halit“-Straße (TAZ)" 
+    url: https://taz.de/Neonazi-Morde/!5098207/
+  - text: "Güleç, Ayşe; Schaffer, Johanna (2017): Empathie, Ignoranz und migrantisch situiertes Wissen. Gemeinsam an der Auflösung des NSU-Komplexes arbeiten. In: Karakayalı et al. (Hg.): Den NSU-Komplex analysieren. Aktuelle Perspektiven aus der Wissenschaft. Transcript Verlag: Bielefeld. S. 57-80."
 ---
 
 Halit Yozgat war 21 Jahre alt als er am 6. April 2006 von Mitgliedern des NSU ermordet wurde. Er wurde in der Holländischen Straße in Kassel geboren und in dieser Straße war auch sein Internetcafé, in dem er getötet wurde. Seine Eltern Ayşe und İsmail Yozgat fordern daher die Umbenennung der Holländischen Straße in Halitstraße, um an ihn zu gedenken. Sie sagen:
@@ -14,7 +18,3 @@ Zudem sollte das Gedenken an rechte und rassistische Gewalt stets so sein, wie e
 Nach dem was Halit Yozgat geschah und wie Familie Yozgat nach seinem Tod verdächtigt und gedemütigt wurde, auch von Polizeibeamt\*innen, Politiker\*innen und Journalist\*innen in Kassel, sollte diese banale Forderung der Familie nicht einmal zur Debatte stehen.
 
 
-### Weitere Informationen:
-
-- [Kassel sperrt sich gegen „Halit“-Straße (TAZ)](https://taz.de/Neonazi-Morde/!5098207/)
-- Güleç, Ayşe; Schaffer, Johanna (2017): Empathie, Ignoranz und migrantisch situiertes Wissen. Gemeinsam an der Auflösung des NSU-Komplexes arbeiten. In: Karakayalı et al. (Hg.): Den NSU-Komplex analysieren. Aktuelle Perspektiven aus der Wissenschaft. Transcript Verlag: Bielefeld. S. 57-80.

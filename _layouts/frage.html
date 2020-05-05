@@ -44,6 +44,9 @@ published: true
         {% if info.url %}
           {% capture pre %}<a href="{{ info.url}}">{% endcapture %}
           {% assign post = "</a>&nbsp;&nbsp;<small class='text-muted'><i class='fas fa-xs fa-external-link-alt'></i></small>" %}
+        {% else %}
+          {% assign pre = "" %}
+          {% assign post = "" %}
         {% endif %}
         <li>
           {{ pre }}{{ html }}{{ post }}
