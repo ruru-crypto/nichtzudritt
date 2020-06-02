@@ -1,4 +1,3 @@
 ---
-short: rassismus
-long: Fragen zu Rassismus und Nazi-Ideologie
+title: Fragen zu Rassismus und Nazi-Ideologie
 ---

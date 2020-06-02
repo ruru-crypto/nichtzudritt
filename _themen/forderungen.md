@@ -1,4 +1,3 @@
 ---
-short: forderungen
-long: Fragen zu offenen Forderungen
+title: Fragen zu offenen Forderungen
 ---

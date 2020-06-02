@@ -1,4 +1,3 @@
 ---
-short: opfer
-long: Fragen zu den Opfern des NSU
+title: Fragen zu den Opfern des NSU
 ---
