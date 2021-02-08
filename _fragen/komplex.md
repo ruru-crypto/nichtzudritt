@@ -1,6 +1,6 @@
 ---
 title: Warum sprechen wir vom „NSU-Komplex“?
-tags: komplex
+tags: komplex aufklaerung
 infos:
   - text: "Die Merkwürdigkeiten im NSU-Komplex (Spiegel)"
     url: https://www.spiegel.de/panorama/justiz/nsu-komplex-die-pannen-und-merkwuerdigkeiten-a-1216659.html

@@ -1,6 +1,6 @@
 ---
 title: Was fordern die Überlebenden der NSU-Anschläge und die Familien der Verstorbenen?
-tags: opfer forderungen
+tags: opfer forderungen aufklaerung
 infos:
   - text: "John, Barbara (Hg.) (2014): Unsere Wunden kann die Zeit nicht heilen. Was der NSU-Terror für die Opfer und Angehörigen bedeutet. Freiburg im Breisgau: Verlag Herder."
   - text: "NSU-Prozess: Pressekonferenz der Opfer-Angehörigen (Welt)"
