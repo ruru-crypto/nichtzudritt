@@ -33,7 +33,7 @@ bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogene
 Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.
 Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.
 
-## 2. Hosting und Content Delivery Networks (CDN)
+## 2. Hosting
 
 ### Externes Hosting
 
@@ -64,11 +64,12 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z. B. bei der Ko
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Verein  
-Adresse
+turn the corner e.V.
+Leipziger Straße 91
+60487 Frankfurt am Main
 
-Telefon: [Telefonnummer der verantwortlichen Stelle]  
-E-Mail: [E-Mail-Adresse der verantwortlichen Stelle]
+Telefon: +4915228656512
+E-Mail: info@turnthecorner.de
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
 

@@ -5,26 +5,27 @@ title: Impressum
 
 ## Angaben gemäß § 5 TMG
 
-Muster e. V.  
-Musterstraße 111  
-Gebäude 44  
-90210 Musterstadt
+turn the corner e. V.  
+Leipziger Straße 91
+60487 Frankfurt am Main
 
 **Vertreten durch:**  
-Dr. Harry Mustermann  
-Luise Beispiel
+Christina Walz
+Tim Herbold
+Lorena Rohr
+Jakob Dettmar
 
 ## Kontakt
 
-Telefon: +49 (0) 123 44 55 66  
-Telefax: +49 (0) 123 44 55 99  
-E-Mail: mustermann@musterfirma.de
+Telefon: +4915228656512
+E-Mail: info@turnthecorner.de
 
 ## Redaktionell Verantwortlicher
 
-Beate Beispielhaft  
-Musterstraße 110  
-90210 Musterstadt
+Philipp Hammer
+turn the corner e. V.  
+Leipziger Straße 91
+60487 Frankfurt am Main
 
 ## Verbraucherstreitbeilegung/Universalschlichtungsstelle
 

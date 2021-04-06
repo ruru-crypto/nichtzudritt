@@ -1,6 +1,13 @@
 ---
 title: Warum sind die Namen der NSU-Mordopfer kaum bekannt?
-tags: aufklärung
+tags: opfer rassismus
+infos:
+  - text: Kolumne. Namen (Süddeutsche Zeitung)
+    url: https://www.sueddeutsche.de/politik/kolumne-namen-1.2940345
+  - text: Warum uns die Täter mehr interessieren als ihre Opfer (Perspective Daily)
+    url: https://perspective-daily.de/article/418/fwF8IU0t
+  - text: "Ibrahim Arslan: „Die Opfer-Perspektive muss gestärkt werden“ (Stadtkulturmagazin Darmstadt)"
+    url: https://www.p-stadtkultur.de/ibrahim-arslan-die-opfer-perspektive-muss-gestaerkt-werden/
 ---
 
 Der Nationalsozialistische Untergrund ermordete zehn Menschen.
