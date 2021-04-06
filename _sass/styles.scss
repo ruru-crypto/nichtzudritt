@@ -116,7 +116,15 @@ a {
 }
 
 footer {
-  padding: 60px 0 65px;
+  padding: 60px 0 20px;
+}
+footer .legal {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight:600;
+  font-size: 12px;
+  color: $gray-500;
+  @include sans-serif-font;
 }
 
 footer .copyright {
