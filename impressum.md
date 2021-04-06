@@ -5,26 +5,26 @@ title: Impressum
 
 ## Angaben gemäß § 5 TMG
 
-turn the corner e. V.  
-Leipziger Straße 91
+turn the corner e.V.  
+Leipziger Straße 91  
 60487 Frankfurt am Main
 
 **Vertreten durch:**  
-Christina Walz
-Tim Herbold
-Lorena Rohr
+Christina Walz  
+Tim Herbold  
+Lorena Rohr  
 Jakob Dettmar
 
 ## Kontakt
 
-Telefon: +4915228656512
+Telefon: +4915228656512  
 E-Mail: info@turnthecorner.de
 
 ## Redaktionell Verantwortlicher
 
-Philipp Hammer
-turn the corner e. V.  
-Leipziger Straße 91
+Philipp Hammer  
+turn the corner e.V.  
+Leipziger Straße 91  
 60487 Frankfurt am Main
 
 ## Verbraucherstreitbeilegung/Universalschlichtungsstelle
