@@ -1,143 +1,84 @@
-# [Start Bootstrap - Clean Blog Jekyll](https://startbootstrap.com/template-overviews/clean-blog-jekyll/) - Official Jekyll Version
+# Das wichtigste zuerst
 
-[Clean Blog Jekyll](http://startbootstrap.com/template-overviews/clean-blog-jekyll/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working contact form powered by [Formspree](https://formspree.io/).
+## Projektstruktur
 
-This repository holds the official Jekyll version of the Clean Blog theme on Start Bootstrap!
+- Im Ordner **\_fragen** befinden sich die statischen Seiten (die auch in der Navigationsleiste anwählbar sind).
+- Im Ordner **\_themen** befinden sich die Themenkomplexe ("Fragen zu..").
+- Bilder können in den Ordner **bilder** hochgeladen und in den Texten verlinkt werden.
 
-## Preview
+## Markdown
 
-[![Clean Blog (Jekyll) Preview](https://startbootstrap.com/assets/img/screenshots/themes/clean-blog-jekyll.png)](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)
+Das Format der Dateien ist Markdown, das dann automatisch in HTML umgewandelt wird.
+HTML kann aber auch verwendet werden.
+Wie man Github-Markdown schreibt, kann man hier nachlesen:
+https://guides.github.com/features/mastering-markdown/
 
-**[View Live Preview](http://blackrockdigital.github.io/startbootstrap-clean-blog-jekyll/)**
+# Änderungen machen
 
-## Installation & Setup
+## Für neue Fragen
 
-### Using RubyGems:
-
-When installing the theme using RubyGems, demo images, posts, and pages are not included. Follow the instructions below for complete setup.
-
-1. (Optional) Create a new Jekyll site: `jekyll new my-site`
-2. Replace the current theme in your `Gemfile` with `gem "jekyll-theme-clean-blog"`.
-3. Install the theme: `bundle install`
-4. Replace the current theme in your `_config.yml` file with `theme: jekyll-theme-clean-blog`.
-5. Build your site: `bundle exec jekyll serve`
-
-Assuming there are no errors and the site is building properly, follow these steps next:
-
-1. Create the following pages if they do not exist already (or change the extension of exisitig markdown files from `.md` to `.html`):
-   - `index.html` - set to `layout: home`
-   - `about.html` - set to `layout: page`
-   - `contact.html` - set to `layout: page`
-   - `posts/index.html` - set to `layout: page` (you will also need to create a `posts` directory)
-2. Configure the `index.html` front matter. Example:
+1. Einen GitHub Account erstellen / einloggen
+1. Im Repository [ktiu/nichtzudritt][1] in den Ordner **[posts][2]** wechseln
+2. Auf **Create new file** clicken
+![Create new file][image-2]
+4. Datei benennen 
+5. In der Datei ganz oben steht der YAML-Header mit Titel, Tags und Links, z. B.
 ```
----
-layout: home
-background: '/PATH_TO_IMAGE'
----
-```
-3. Configure the `about.html`, `contact.html`, and `posts/index.html` front matter. Example:
-```
----
-layout: page
-title: Page Title
-description: This is the page description.
-background: '/PATH_TO_IMAGE'
+title: Warum sind die Namen der NSU-Mordopfer kaum bekannt?
+tags: opfer rassismus
+infos:
+  - text: Kolumne. Namen (Süddeutsche Zeitung)
+    url: https://www.sueddeutsche.de/politik/kolumne-namen-1.2940345
+  - text: Warum uns die Täter mehr interessieren als ihre Opfer (Perspective Daily)
+    url: https://perspective-daily.de/article/418/fwF8IU0t
+  - text: "Ibrahim Arslan: „Die Opfer-Perspektive muss gestärkt werden“ (Stadtkulturmagazin Darmstadt)"
+    url: https://www.p-stadtkultur.de/ibrahim-arslan-die-opfer-perspektive-muss-gestaerkt-werden/
 ---
 ```
-4. For each post in the `_posts` directory, update the front matter. Example:
-```
----
-layout: post
-title: "Post Title"
-subtitle: "This is the post subtitle."
-date: YYYY-MM-DD HH:MM:SS
-background: '/PATH_TO_IMAGE'
----
-```
+6. Darunter folgt der Text in Markdown/HTML
+3. Auf **Commit new file** klicken
+4. Überprüfen und **Create pull request** wählen
+5. Ggf. eine kurze Beschreibung / Erklärung der Änderungen verfassen und pull request bestätigen
+6. Das war's! Der pull request mit den Änderungen ist für alle sichtbar und kann angenommen werden.
 
-For reference, look at the [demo repository](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll) to see how the files are set up.
+## Für kleine Änderungen und Korrekturen
 
-5. Add the form to the `contact.html` page. Add the following code to your `contact.html` page:
-```
-<form name="sentMessage" id="contactForm" novalidate>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Name</label>
-      <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Email Address</label>
-      <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group col-xs-12 floating-label-form-group controls">
-      <label>Phone Number</label>
-      <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <div class="control-group">
-    <div class="form-group floating-label-form-group controls">
-      <label>Message</label>
-      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-      <p class="help-block text-danger"></p>
-    </div>
-  </div>
-  <br>
-  <div id="success"></div>
-  <div class="form-group">
-    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send</button>
-  </div>
-</form>
-```
+1. Einen GitHub Account erstellen / einloggen
+1. Im Repository [ktiu/nichtzudritt][1] die betreffende Datei finden (siehe [Projektstruktur])
+2. Auf der zu ändernden Datei auf den kleinen Stift im Menü oben rechts klicken:
+![Fork this project and edit the file][image-1]
+3. Änderungen vornehmen und auf **Propose file change** klicken
+4. Überprüfen und **Create pull request** wählen
+5. Ggf. eine kurze Beschreibung / Erklärung der Änderungen verfassen und pull request bestätigen
+6. Das war's! Der pull request mit den Änderungen ist für alle sichtbar und kann angenommen werden.
 
-Make sure you have the `email` setting in your `_config.yml` file set to a working email address! Once this is set, fill out the form and then check your email, verify the email address using the link sent to you by Formspree, and then the form will be working!
+## Für umfassendere Änderungen...
 
-6. Build your site: `bundle exec jekyll serve`
+... (z. B. Designänderungen) ist es besser, zuerst an einer eigenen Kopie des gesamten Projekts Änderungen vorzunehmen und sich anzeigen zu lassen. Das geht so:
 
-### Using Core Files
+1. Im Repository [ktiu/nichtzudritt][1] auf "Fork" klicken. Das kopiert das komplette Projekt in den eigenen Account. (Das passiert übrigens auch bei der schnellen Methode automatisch im Hintergrund.)
+1. Die Datei "CNAME" im eingenen Repository löschen (sonst kommt GitHub bei der Vorschau durcheinander).
+1. Im *eigenen* Repository (also https://github.com/{EIGENER-USERNAME}/nichtzudritt) auf "Settings" klicken
+2. Im Menüpunkt **GitHub Pages** die Option **Source** auf "main" setzen. Damit werden die Änderungen, die im eigenen Repository vorgenommen werden, live (mit einer kleinen Verzögerung) angezeigt.
+3. Die Adresse für die Vorschau lautet: https://{EIGENER-USERNAME}.github.io/nichtzudritt/
+4. Wenn die eigene Kopie soweit ist, dass die Änderungen in die Live-Seite einfließen sollen, muss noch ein pull request erstellt werden. Hierzu auf **New pull request** klicken (oder diesem [Link](../../compare/ktiu:main...main) folgen)
+5. Dann als **base fork** auswählen: ktiu/main
+6. Als **head fork**: {EINGENER-USERNAME}/nichtzudritt
+7. Dann prüft GitHub, ob die Versionen zusammengeführt werden können. Solange nicht in der Zwischenzeit die gleichen Zeilen bearbeitet wurden, sollte das gehen.
+8. Auf **Create pull request** klicken und dann nochmal bestätigen. Fertig!
 
-When using the core files, the demo images, posts, and pages are all included with the download. After following the instructions below, you can then go and change the content of the pages and posts.
+Wenn Ihr in weiterer Folge Aktualisierungen von ktiu/nichtzudritt in euren Fork "nachziehen" wollt, könnt ihr den pull request auch in die andere Richtung machen, d.h. "{EIGENER-USERNAME}/nichtzudritt" als base fork und "ktiu/nichtzudritt" als head fork. ([Link](../../compare/main...ktiu:main))
 
-1. [Download](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/archive/master.zip) or Clone the repository.
-2. Update the following configuration settings in your `_config.yml` file:
-   - `baseurl`
-   - `url`
-   - `title`
-   - `email` (after setting this setting to a working email address, fill out the form on the contact page and send it - then check your email and verify the address and the form will send you messages when used)
-   - `description`
-   - `author`
-   - `twitter_username` (Optional)
-   - `facebook_username` (Optional)
-   - `github_username` (Optional)
-   - `linkedin_username` (Optional)
-3. Build your site: `bundle exec jekyll serve`
+# Zum Weiterlesen
 
-## Bugs and Issues
+- Das Format der Dateien ist Markdown, das dann automatisch in HTML umgewandelt wird. https://guides.github.com/features/mastering-markdown/
+- Die Seite ist auf GitHub gehostet, wofür es hier eine schöne Einleitung gibt: https://guides.github.com/introduction/flow/
+- Die Profi-Variante für eigene Änderungen ist, sich den [GitHub Desktop][5] (oder sogar nur Git) und [Jekyll][6] zu installieren, das Repository lokal zu klonen und sich die Änderungen in Echtzeit auf localhost anzeigen zu lassen.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues) here on GitHub!
+[1]:	https://github.com/ktiu/nichtzudritt
+[2]:	https://github.com/ktiu/nichtzudritt/tree/main/_fragen
+[5]:	https://desktop.github.com/
+[6]:	https://jekyllrb.com
 
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/blob/gh-pages/LICENSE) license.
+[image-1]:	https://raw.githubusercontent.com/ktiu/nichtzudritt/main/bilder/tutorial/fork_and_edit.png
+[image-2]:	https://raw.githubusercontent.com/ktiu/nichtzudritt/main/bilder/tutorial/create_new_file.png
