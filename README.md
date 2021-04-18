@@ -2,8 +2,8 @@
 
 ## Projektstruktur
 
-- Im Ordner `\_fragen` befinden sich die statischen Seiten (die auch in der Navigationsleiste anwählbar sind).
-- Im Ordner `\_themen` befinden sich die Themenkomplexe ("Fragen zu..").
+- Im Ordner `_fragen` befinden sich die statischen Seiten (die auch in der Navigationsleiste anwählbar sind).
+- Im Ordner `_themen` befinden sich die Themenkomplexe ("Fragen zu..").
 - Bilder können in den Ordner **bilder** hochgeladen und in den Texten verlinkt werden.
 
 ## Markdown
@@ -41,9 +41,9 @@ infos:
 5. Ggf. eine kurze Beschreibung / Erklärung der Änderungen verfassen und pull request bestätigen
 6. Das war's! Der pull request mit den Änderungen ist für alle sichtbar und kann angenommen werden.
 
-Neue Kategorien können analog im Ordner _
+Neue Kategorien können analog im Ordner `_themen` angelegt werden.
 
-## Für kleine Änderungen und Korrekturen
+## Kleine Änderungen und Korrekturen
 
 1. Einen GitHub Account erstellen / einloggen
 1. Im Repository `ktiu/nichtzudritt` die betreffende Datei finden
@@ -60,9 +60,9 @@ Neue Kategorien können analog im Ordner _
 
 1. Im Repository `ktiu/nichtzudritt` auf "Fork" klicken. Das kopiert das komplette Projekt in den eigenen Account. (Das passiert übrigens auch bei der schnellen Methode automatisch im Hintergrund.)
 1. Die Datei "CNAME" im eingenen Repository löschen (sonst kommt GitHub bei der Vorschau durcheinander).
-1. Im *eigenen* Repository (also https://github.com/{EIGENER-USERNAME}/nichtzudritt) auf "Settings" klicken
-2. Im Menüpunkt **GitHub Pages** die Option **Source** auf "main" setzen. Damit werden die Änderungen, die im eigenen Repository vorgenommen werden, live (mit einer kleinen Verzögerung) angezeigt.
-3. Die Adresse für die Vorschau lautet: https://{EIGENER-USERNAME}.github.io/nichtzudritt/
+1. Im *eigenen* Repository (also `https://github.com/{EIGENER-USERNAME}/nichtzudritt`) auf "Settings" klicken
+2. Im Menüpunkt **Pages** die Option **Source** auf **Brach: main** setzen. Damit werden die Änderungen, die im eigenen Repository vorgenommen werden, live (mit einer kleinen Verzögerung) angezeigt.
+3. Die Adresse für die Vorschau lautet dann: https://{EIGENER-USERNAME}.github.io/nichtzudritt/
 4. Wenn die eigene Kopie soweit ist, dass die Änderungen in die Live-Seite einfließen sollen, muss noch ein pull request erstellt werden. Hierzu auf **New pull request** klicken 
 5. Dann als **base repository** auswählen: **ktiu/nichtzudritt** (base: main)
 6. Als **head repository**: **{EIGENER-USERNAME}/nichtzudritt** (compare: main)
